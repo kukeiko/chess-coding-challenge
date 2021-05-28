@@ -1,0 +1,15 @@
+/.vscode
+/coverage
+/dist/test
+/src
+/test
+/cz-config.js
+/.gitignore
+/.npmignore
+/.prettierrc
+/karma.conf.js
+/package-lock.json
+/readme.md
+/tsconfig.json
+/tsconfig-test.json
+/tslint.json
