@@ -1,6 +1,14 @@
 module.exports = {
     types: [
         {
+            value: "chal",
+            name: "chal: a new challenge",
+        },
+        {
+            value: "sln",
+            name: "sln: solution to a challenge",
+        },
+        {
             value: "feat",
             name: "feat: a new feature",
         },

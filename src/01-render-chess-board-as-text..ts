@@ -12,7 +12,16 @@
 export function renderChessBoardAsText(width: number, height: number): string[][] {
     const board: string[][] = [];
 
-    // todo: implement
+    for (let y = 0; y < height; y++) {
+        const row: string[] = [];
+        const rest = y % 2 == 0 ? 0 : 1;
+
+        for (let x = 0; x < width; x++) {
+            row.push(x % 2 == rest ? " " : "x");
+        }
+
+        board.push(row);
+    }
 
     return board;
 }
