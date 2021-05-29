@@ -1,6 +1,6 @@
-import { renderChessBoardAsText } from "../../src/01-render-chess-board-as-text.";
+import { renderChessBoardAsText } from "../../src/01-render-chess-board-as-text";
 
-describe("01-render-chess-board-as-text", () => {
+xdescribe("01-render-chess-board-as-text", () => {
     it("should render an 8x8 board", () => {
         // arrange
         const expected = [
